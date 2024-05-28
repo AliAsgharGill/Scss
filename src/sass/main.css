@@ -1,0 +1,59 @@
+div {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 25vh;
+}
+
+h2 {
+  font-size: 40px;
+  color: rgb(35, 212, 252);
+  font-weight: bolder;
+  border-radius: 15px;
+}
+h2:hover {
+  color: green;
+  background-color: pink;
+  padding: 20px;
+}
+h2::after {
+  color: navajowhite;
+  content: "=> I am After";
+}
+
+.one {
+  background-color: pink;
+  color: rgb(35, 212, 252);
+  padding: 20px;
+}
+.one::before {
+  content: "I am Before. ";
+}
+.one:hover {
+  background-color: yellow;
+}
+
+#two {
+  background-color: pink;
+  color: green;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-direction: row;
+  min-height: 30vh;
+  background-color: rgb(35, 212, 252);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: green;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,28 @@
+// bg-colors
+$bg-color: pink;
+$bg-primary: rgb(20, 125, 224);
+$bg-secondary: rgb(35, 252, 194);
+
+// colors
+$primary-color: $bg-color;
+$secondary-color: rgb(35, 68, 252);
+$info-color: rgb(35, 136, 252);
+$success-color: rgb(12, 173, 23);
+$warning-color: rgb(230, 154, 13);
+$danger-color: red;
+
+// text colors
+$default-text-color: black;
+
+// fonts
+$default-font: "Roboto", sans-serif;
+
+// padding
+$default-padding: 20px;
+
+// border
+$default-border: 1px solid black;
+
+// border radius
+$default-border-radius: 5px;
+$border-radius: 15px;

@@ -1,0 +1,9 @@
+@mixin flexPro($direction: row, $height: 30) {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-direction: $direction;
+  min-height: $height+vh;
+  // background-color: $bg-secondary ;
+}

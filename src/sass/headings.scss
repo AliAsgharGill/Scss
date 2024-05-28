@@ -1,0 +1,28 @@
+h1{
+    background-color: $bg-color;
+    color: $primary-color;
+    padding: $default-padding;
+    border-radius: $border-radius;
+    &:hover {
+        color: $secondary-color;
+        background-color: rgb(191, 230, 16);
+    }
+  
+}
+
+
+h2 {
+    font-size: 40px;
+    color: $primary-color;
+    font-weight: bolder;
+    border-radius: $border-radius;
+    padding: $default-padding;
+    &:hover {
+      color: $secondary-color;
+      background-color: pink;
+    }
+    &::after {
+      color: navajowhite;
+      content: "=> I am After";
+    }
+  }
