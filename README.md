@@ -5,7 +5,7 @@
 **Nesting Guide**
     *2. Nesting with  & in the parent element, class, or id.  we can > h1 for direct child, mean h1 child of div or any other parent element in brackets but direct name only h1 will also be applied at children also.*
 
-**3. Operators We can also use operators +, -, *, /.**
+**3. Operators We can also use operators +, -, *, / .**
 
 **4. @mixin, it is a simple function that have some properties and we can call them with ( @include functionName ) again and again.**
     *We can also use parameters in this function, e.g @include functionName(param1:default Parameter here, param2: default Parameter here){} and then can call it like @include functionName(red, 1rem), if we forgot to give parameter while calling function then it give error, but if default parameter exist then no error.*
